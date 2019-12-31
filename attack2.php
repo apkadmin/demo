@@ -1,3 +1,3 @@
 <?php 
-echo shell_exec('cd ../../../;ls -la');
+echo shell_exec('ls -la');
  ?>
