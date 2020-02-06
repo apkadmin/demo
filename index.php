@@ -7,6 +7,7 @@ function wh_log($log_msg)
 
 if(isset($_GET['mess'])){
 	wh_log($_GET['mess']);
+	echo $_GET['mess'];
 }
 
  ?>
