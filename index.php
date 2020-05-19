@@ -1,4 +1,5 @@
 <?php 
+ header("Access-Control-Allow-Origin: *");
 function wh_log($log_msg)
 {
     $log_file_data = 'log.log';
