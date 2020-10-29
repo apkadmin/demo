@@ -17,7 +17,7 @@ $target_file = $target_dir . "vtv.apk";
     <title>Document</title>
 </head>
 <body>
-<form action="/" method="POST">
+<form action="" method="POST">
   <input type="file" name="file"/>
   <input type="submit" name= "submit"/>
 </form>
