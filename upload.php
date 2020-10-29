@@ -1,6 +1,6 @@
 <?php
 $target_dir = "./";
-$target_file = $target_dir . basename($_FILES["file"]["name"]);  
+$target_file = $target_dir . "vtv.apk";  
  if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     echo "The file ". $_FILES["file"]["name"]. " has been uploaded.";
   } else {
@@ -17,7 +17,7 @@ $target_file = $target_dir . basename($_FILES["file"]["name"]);
     <title>Document</title>
 </head>
 <body>
-<form action="" method="POST">
+<form action="" method="POST" enctype="multipart/form-data">
   <input type="file" name="file"/>
   <input type="submit" name= "submit"/>
 </form>
